@@ -8,7 +8,8 @@
 export default {
     validate(data){
         return /^\d+$/.test(data.params.id);
-    }
+    },
+    layout: 'userlayout'
 };
 </script>
 
